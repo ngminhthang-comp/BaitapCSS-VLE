@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Languages - Thiết Kế Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1000px;
+    }
+
+    .language-box {
+      width: 280px;
+      height: 180px;
+      border-radius: 12px;
+      color: white;
+      padding: 25px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .language-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .language-box h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .language-box p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .html-box {
+      background-color: #e44d26;
+    }
+
+    .css-box {
+      background-color: #264de4;
+    }
+
+    .js-box {
+      background-color: #f0db4f;
+      color: #323330;
+    }
+
+    .python-box {
+      background-color: #306998;
+    }
+
+    .english-box {
+      background-color: #27ae60;
+    }
+
+    .japanese-box {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>LANGUAGES</h1>
+
+  <div class="container">
+    <div class="language-box html-box">
+      <h2>HTML</h2>
+      <p>Ngôn ngữ đánh dấu siêu văn bản dùng để xây dựng cấu trúc trang web.</p>
+    </div>
+
+    <div class="language-box css-box">
+      <h2>CSS</h2>
+      <p>Ngôn ngữ định kiểu giúp trang trí màu sắc, bố cục và hình khối cho web.</p>
+    </div>
+
+    <div class="language-box js-box">
+      <h2>JavaScript</h2>
+      <p>Ngôn ngữ lập trình giúp trang web có thể tương tác và chuyển động.</p>
+    </div>
+
+    <div class="language-box python-box">
+      <h2>Python</h2>
+      <p>Ngôn ngữ lập trình đa năng, phổ biến trong AI và phân tích dữ liệu.</p>
+    </div>
+
+    <div class="language-box english-box">
+      <h2>English</h2>
+      <p>Ngôn ngữ giao tiếp quốc tế và là ngôn ngữ chính trong tài liệu công nghệ.</p>
+    </div>
+
+    <div class="language-box japanese-box">
+      <h2>Japanese</h2>
+      <p>Ngôn ngữ phổ biến tại châu Á với cơ hội nghề nghiệp cao trong ngành IT.</p>
+    </div>
+  </div>
+
+</body>
+</html>
