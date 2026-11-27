@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập thiết kế web - Hình chữ nhật</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .hinh-chu-nhat {
+      width: 350px;
+      height: 200px;
+      background-color: #3498db;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hinh-chu-nhat h2 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+
+    .hinh-chu-nhat p {
+      margin: 0;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hinh-chu-nhat">
+    <h2>Thiết Kế Web Cơ Bản</h2>
+    <p>Đây là hình chữ nhật được tạo bằng HTML và CSS.</p>
+  </div>
+
+</body>
+</html>
